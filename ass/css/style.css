@@ -1,0 +1,639 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+html{
+    height: 2000px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.header{
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    
+}
+
+
+.header-top{
+   
+    padding: 31px 300px 0px;
+    
+}
+
+
+.header-toptop{
+    display: flex;
+    justify-content: space-between;
+}
+.header-top-icon{
+    
+}
+
+.header-toptop-logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-toptop-logo h1{
+    padding: 0 10px;
+    font-family: AmstelvarAlpha;
+    font-size: 1.17rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-toptop-logo img{
+    width: 31px;
+    height: 15px;
+    flex-shrink: 0;
+    margin: auto;
+}
+
+.header-toptop-final{
+    display: flex;
+    
+}
+.account{
+    margin-right: 22px;
+}
+.header-toptop-final-item button{
+    border: none;
+    background-color:white;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: grab;
+}
+.header-toptop-final-item button i {
+    margin-right: 8px;
+}
+
+.header hr{
+    
+    margin: 25px 0 30px;
+}
+
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu li a{
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+.header-bottom{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header-bottom .img_1{
+    width: 132.34px;
+    height: 66.61px;
+    /* transform: rotate(-150deg); */
+    flex-shrink: 0;
+    margin-top: 450px;
+}
+.header-bottom-mid{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px 0;
+}
+.header-bottom-mid-left h2{
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55px; 
+    text-transform: capitalize;
+}
+.header-bottom-mid-left p{
+    margin: 52px 0 66px;
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px; 
+    text-transform: capitalize;
+}
+.header-bottom-mid-left button{
+    background: var(--Black, #1E2832);
+    padding: 19px 26px;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.header-bottom-mid-left button i{
+    color: var(--White, #FFF);
+    margin-right: 8px;
+}
+.header-bottom-mid-right{
+    width: 424px;
+    height: 542px;
+}
+.header-bottom .img_2{
+    width: 195px;
+    height: 262px;
+    /* transform: rotate(-150deg); */
+    /* padding: 0.064px 0.019px 0.028px 0.227px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    flex-shrink: 0;
+    margin-top: 200px;
+}
+
+
+
+.brand{
+    
+    
+}
+.brand-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 300px 90px 280px;
+}
+.brand-top-item{
+    width: 200px;
+    height: 70px;
+    flex-shrink: 0;
+}
+
+.brand-bottom{
+    display: flex;
+    
+    width: auto;
+    height: auto;
+}
+.brand-bttom-tex{
+    min-width: 50%;
+    display: flex;
+}
+.brand-bttom-tex p{
+    align-items: center;
+    display: block;
+    margin-right: 0;
+    height: 50px;
+    margin-left: -110px;
+    transform: rotate(-90deg);
+    transform-origin: bottom right;
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+    
+.brand-bottom-img img{
+    display: block;
+    width: 490px;
+    height: 100%;
+
+}
+.brand-bottom-item{
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.brand-bottom-item img{
+    display: block;
+    width: 245px;
+    height: 245px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.brand-bottom-item img:nth-child(3){
+    margin-bottom: 0;
+}
+.brand-bottom-item img:nth-child(4){
+    margin-bottom: 0;
+
+}
+
+.product{
+    padding: 0 260px 140px 260px;
+}
+
+.product h2{
+    color: var(--Dark, #000);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 140px;
+}
+
+.menu{
+    height: 22px;
+    padding: 35px 0;
+    margin-bottom: 35px;
+}
+
+.menu ul {
+    display: flex;
+    
+}
+
+.item-tap{
+    list-style: none;
+    padding: 5px 0;
+    margin-right: 30px;
+    
+}
+
+.item-tap h6{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    
+}
+.h6{
+    opacity: 0.5;
+}
+
+.button button{
+    background-color: #000;
+    padding: 5px 15px;
+    border: none;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.list-product{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    margin-bottom: 20px;
+}
+.sale{
+    position: absolute;
+    top: 26px;
+    left: 0;
+    padding: 4px 12px;
+    background-color: #000;
+    color: white;
+}
+
+.hot{
+    background-color: red;
+}
+.sale p{
+    font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.image-product img{
+    width: 230px;
+height: 318px;
+flex-shrink: 0;
+}
+
+.text h6{
+    margin-top: 15px;
+}
+
+.text p{
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 15px;
+    opacity: 0.5;
+}
+
+.sell{
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+    font-size: 18px;
+    font-weight: 100;
+}
+.sales{
+    display: flex;
+}
+.sales h6:first-child{
+    opacity: 0.5;
+    margin-right: 12px;
+    text-decoration: line-through;
+}
+
+
+
+.zaba{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.zaba-img{
+    width: 100%;
+    height: 100%;
+}
+.zaba-img img{
+    width: 100%;
+    height: 100%;
+}
+.zaba-logo{
+    position: absolute;
+    top: 51px;
+    right: 0px;
+}
+.zaba-item{
+    position: absolute;
+    top: 233px;
+    bottom: 93px;
+    left: 684px;
+    right: 333px;
+}
+.zaba-item img{
+    width: 191px;
+    height: 81px;
+}
+.zaba-item p{
+    margin: 55px 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; 
+    text-transform: capitalize;
+}
+.zaba-item button{
+    background-color: white;
+    color: black;
+    padding: 19px 26px;
+    font-family: Roboto;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+
+.hot-product{
+    position: relative;
+}
+ .hot-product-icon{
+    position: absolute;
+    top: 135px;
+    border: none;
+}
+.hot-product-icon i{
+    font-size: 40px;
+    opacity: 0.3; 
+}
+.hot-product-icon i:hover{
+    cursor: pointer;
+}
+/* .fa-solid, .fas{
+    font-size: 40px;
+    opacity: 0.3;
+} */
+.one{
+    left: 10px;
+}
+.two{
+    right: 10px;
+}
+
+
+
+.newselecter{
+    padding: 100px 300px;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    
+}
+.newselecter h2{
+    color: var(--Dark, #000);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    text-align: center;
+}
+.new-img{
+    padding: 60px 0 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.new-img-item img{
+    display: block;
+    width: 140px;
+    height: 140px;
+}
+.new-img-input-button {
+    margin-top: 74px;
+    display: flex;
+    justify-content: center;
+}
+.new-img-input-button input{
+    width: 643px;
+    height: 32px;
+    border: none;
+    border-bottom: solid 1px;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    padding-left: 15px;
+    padding-bottom: 13px;
+    padding-top: 10px;
+    opacity: 0.5;
+    margin-right: 26px;
+}
+.new-img-input-button button{
+    padding: 6px 16px;
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    color: var(--Black, #1E2832);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+
+.footer{
+    padding: 140px 0 0;
+}
+.footer-top{
+    display: flex;
+    padding: 0 300px 0;
+}
+.footer-top-left{
+    width: 400px;
+    padding-right: 56px;
+}
+.footer-top-left-logo{
+    display: flex;
+    align-items: center;
+}
+.footer-top-left-logo img{
+    display: block;
+    width: 31px;
+    height: 15px;
+}
+.footer-top-left-logo p{
+    color: var(--Dark, #000);
+    font-family: AmstelvarAlpha;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 5px;
+}
+.footer-top-left-tex{
+    margin: 32px 0;
+    color: var(--Black-75, rgba(30, 40, 50, 0.75));
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-top-left-icon i{
+    margin-right: 36px;
+}
+
+.footer-top-right{
+    display: flex;
+    
+}
+.footer-top-right-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-top-right-item h6{
+    color: var(--Dark, #000);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-top-right-item p{
+    color: var(--Black, #1E2832);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    text-transform: capitalize;
+}
+.ftri-two{
+    margin: 0 70px;
+}
+
+.footer-bottom{
+    padding: 10px 300px;
+    margin-top: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-bottom-tex p{
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-bottom button{
+    
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: black;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    
+}
+.footer-bottom button p a{
+    text-decoration: none;
+    background-color: black;
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.footer-bottom button p{
+    margin-right: 10px;
+}
